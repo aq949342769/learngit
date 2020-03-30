@@ -1,2 +1,2 @@
 git is good
-gii is good
+git is good
