@@ -3,4 +3,4 @@ git is good
 git is good
 ggggggggggg
 git track change
-123
+conflict
