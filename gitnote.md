@@ -89,6 +89,21 @@
 
 如果`git pull`提示`no tracking information`，则说明本地分支和远程分支的链接关系没有创建，用命令`git branch --set-upstream-to origin/<branch-name>`
 
+## vim快捷键说明
+
+`$ vi demo1.txt`
+
+
+|快捷键|说明|
+|:-|:-:|
+|ESC|退出编辑，调到命令模式|
+|:w|保存不退出vim|
+|:w!|强制保存，不退出vim|
+|:q|不保存，退出vim|
+|:q!|不保存，强制退出vim|
+|:wq|保存并退出|
+|:e!|放弃修改，从上次保存文件开始编辑|
+|:w file|将修改另存为file|
 
 
 
