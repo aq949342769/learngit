@@ -50,13 +50,27 @@ git push -u origin master  把本地库所有内容推送到远程库
 
 git clone git@github.com:用户名/仓库名.git    从远程库克隆库回本地库
 
-git checkout -b dev 创建并切换到dev分支
+假设分支名为dev，则
+
+git checkout -b dev 
+
+或
+
+git switch -c dev    创建并切换到dev分支（直接切换不需要-c）
 
 相当于两条命令：
 
 git branch dev
 
 git checkout dev
+
+git branch  查看分支
+
+git checkout master 返回master分支
+
+git merge dev 将dev分支内容合并到当前分支
+
+git branch -d dev 删除dev分支
 
 
 
